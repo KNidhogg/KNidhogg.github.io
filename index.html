@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic homepage of Yuan Su, University of Electronic Science and Technology of China." />
+  <title>Yuan Su | Academic Homepage</title>
+  <style>
+    :root { color-scheme: light; --ink: #14253c; --muted: #4a5c70; --blue: #155cc3; --border: #dee7f2; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: #f5f8fc; color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.65; }
+    .hero { background: linear-gradient(125deg, #102845, #1a467d); padding: 65px 24px 90px; color: #fff; }
+    .hero-inner, .container { max-width: 780px; margin: 0 auto; }
+    .eyebrow { color: #b9d8ff; font-weight: 600; font-size: .83rem; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 10px 0 10px; font-size: clamp(2.5rem, 7vw, 3.7rem); line-height: 1.12; }
+    .subtitle { margin: 0; color: #d5e4f6; font-size: 1.05rem; }
+    main { max-width: 780px; margin: -44px auto 40px; padding: 0 18px; }
+    .card { background: #fff; border: 1px solid var(--border); box-shadow: 0 15px 32px rgba(19, 42, 74, .07); border-radius: 18px; padding: clamp(22px, 5vw, 38px); margin-bottom: 16px; }
+    h2 { margin: 0 0 12px; font-size: 1.25rem; }
+    p { margin: 0 0 14px; }
+    p:last-child { margin-bottom: 0; }
+    .details { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 14px 20px; margin: 18px 0 0; }
+    dt { color: var(--muted); font-weight: 600; }
+    dd { margin: 0; overflow-wrap: anywhere; }
+    a { color: var(--blue); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    footer { text-align: center; color: var(--muted); padding: 6px 18px 35px; font-size: .88rem; }
+    @media (max-width: 520px) { .details { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 10px; } .hero { padding-top: 42px; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Academic Homepage</div>
+      <h1>Yuan Su</h1>
+      <p class="subtitle">Student · University of Electronic Science and Technology of China (UESTC)</p>
+    </div>
+  </header>
+  <main>
+    <section class="card" aria-labelledby="about">
+      <h2 id="about">About Me</h2>
+      <p>My name is Yuan Su. I am a student at the University of Electronic Science and Technology of China (UESTC).</p>
+      <p>This website provides my academic affiliation and contact information.</p>
+    </section>
+    <section class="card" aria-labelledby="contact">
+      <h2 id="contact">Affiliation &amp; Contact</h2>
+      <dl class="details">
+        <dt>Name</dt><dd>Yuan Su</dd>
+        <dt>Institution</dt><dd>University of Electronic Science and Technology of China (UESTC)</dd>
+        <dt>Email</dt><dd><a href="mailto:202511040609@std.uestc.edu.cn">202511040609@std.uestc.edu.cn</a></dd>
+        <dt>GitHub</dt><dd><a href="https://github.com/KNidhogg" rel="me noopener noreferrer" target="_blank">github.com/KNidhogg</a></dd>
+      </dl>
+    </section>
+  </main>
+  <footer>Yuan Su · Academic Homepage</footer>
+</body>
+</html>
